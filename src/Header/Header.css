@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: rgba(235, 145, 27, 0.979);
+    justify-content: space-around;
+}
+
+.header a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+    color: rgba(223, 183, 130, 0.979);
+}
+
+
+/* responsive code */
+
+@media (max-width:1200px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width:900px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media (max-width:800px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width:701px) {
+    html {
+        font-size: 55%;
+    }
+}

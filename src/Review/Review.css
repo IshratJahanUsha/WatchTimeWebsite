@@ -1,0 +1,18 @@
+.review-section .review{
+    width: 75%;
+    border: .2rem solid black;
+    box-shadow: .1rem .2rem gray;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.review img{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+
+.review span{
+    color: rgba(235, 145, 27, 0.979);
+}

@@ -1,0 +1,14 @@
+.dashboard-charts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5rem 2rem 0 2rem;
+
+}
+
+.dashboard-charts .line-chart{
+margin-left: 2rem;
+}
+
+.dashboard-charts .bar-chart{
+margin-left: 1rem;
+}
